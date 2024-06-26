@@ -1,0 +1,78 @@
+* {
+    box-sizing: border-box;
+
+}
+
+main {
+    display: flex;
+    flex-direction: row;    
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 200px;
+}
+
+.girlianda1 {    
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -1s;
+    animation-timing-function: steps(1);
+}
+
+.girlianda2 {  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -2s;   
+    animation-timing-function: steps(1);
+}
+
+.girlianda3 {  
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -3s;    
+    animation-timing-function: steps(1);
+}
+
+.girlianda4 {   
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: red;
+    animation-name: loading;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-delay: -4s;    
+    animation-timing-function: steps(1);
+}
+
+@keyframes loading {
+    0% {
+        background-color: red;
+    }
+    25% {
+        background-color: green;
+    }
+    50% {
+        background-color: blue;
+    }
+    75% {
+        background-color: yellow;
+    }
+    100% {
+        background-color: red;
+    }
+}
